@@ -1,0 +1,132 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #FDF5E6;
+}
+
+.header-site{
+
+
+  &__container{
+    position: relative;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1280px;
+    min-height: 577px;
+    background-color: #293039;
+    border-radius: 10px;
+    border: 1px solid transparent;
+  }
+    
+  &__comment{
+    margin: 100px auto;
+    width: 540px;
+    height: 160px;
+  }
+
+  &__title{
+    margin: 0 auto;
+    width: 329px; 
+    height: 48px;          
+    font-family: 'Fraunces', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: #FEFCF7;
+  }
+
+  &__paragrath{
+    margin-top: 32px;
+    width: 540px;
+    height: 80px;
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FEFCF7;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+  }
+
+    
+  &__list{
+    margin-left: 85px;
+    position: absolute;
+    display: flex;
+    column-gap: 30px;
+    width: 1110px;
+    height: 382px;
+    list-style: none;
+  }
+
+  &__item{
+    width: 350px;
+    height: 382px;
+    background-color: #0E8784;
+    border-radius: 10px;
+    transition: all 0.5s linear;
+  }  
+    
+  &__item:hover{
+    transform: scale(1.05);
+  }
+
+    
+
+  &__logo{
+    margin-top: 72px;
+    margin-bottom: 56px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  &__sub-title{
+    font-family: 'Fraunces', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #FEFCF7; 
+  }
+
+  &__sub-paragrath{
+    margin-top: 24px;
+    margin-left: 48px;
+    width: 255px;
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center; 
+    color: #FEFCF7;
+  }
+
+}  
+
+
+    
+
+ 
+
+
+
+
+    
+
+
+
+
+
+
